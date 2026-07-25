@@ -9,10 +9,6 @@ Built a discounted cash flow model projecting free cash flow growth and calculat
 
 [View project](./Rolls-Royce_DCF_Model.xlsx)
 
-### 📈 Portfolio Risk Model
-Used Python to calculate Value at Risk, Sharpe ratio, and a correlation matrix across a set of FTSE stocks, applying risk management principles to quantify portfolio risk exposure.
-
-[View project](./Portfolio%20Risk%20Model.pdf)
 
 ### 💼 Active Portfolio Management (MSCI Europe)
 Constructed and managed a simulated €1bn active European equity portfolio using Bloomberg Terminal, applying multi-factor risk decomposition, Brinson attribution, and Monte Carlo VaR. The portfolio delivered 8.47% against a 9.09% benchmark; Brinson attribution diagnosed the shortfall as allocation-driven, concentrated in a single stock, rather than a stock-selection failure.
