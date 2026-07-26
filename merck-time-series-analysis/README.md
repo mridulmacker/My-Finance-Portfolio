@@ -8,6 +8,8 @@ Empirical time-series econometrics on 26 years of daily MRK equity data (2000–
 
 **Headline finding:** the classic asymmetry of financial econometrics reproduced in a single security — the *mean* of daily returns is unpredictable (no strategy beats buy-and-hold, even at zero transaction costs), while the *variance* is highly predictable (HAR and ARMA spread forecasts beat an AR(1) benchmark with Diebold–Mariano p < 0.0001 under both MSPE and QLIKE loss).
 
+Full write-up with all figures and detailed results: [Merck_Time_Series_Analysis.pdf](./Merck_Time_Series_Analysis.pdf)
+
 ## Background
 
 This project was completed individually as coursework for **BMAN 71122 Time Series Econometrics** at Alliance Manchester Business School. All analysis, code, and write-up are my own work.
