@@ -7,7 +7,7 @@ Financial modelling, valuation and portfolio risk projects, built using Python, 
 ### 🔢 Derivatives Pricing
 Priced European and American equity options using seven numerical methods in Python, including binomial trees, finite-difference PDE methods, Monte Carlo simulation, and Longstaff-Schwartz. Validated every method against the Black-Scholes closed-form solution to within 10⁻⁴, and diagnosed sources of model bias including discrete-monitoring bias and volatility miscalibration.
 
-[View project](./Derivatives%20Pricing%20-%20A%20study%20by%20Mridul%20Macker.pdf)
+[View project](./derivatives-pricing/)
 
 ### 💼 Portfolio Risk & Active Management (MSCI Europe)
 Used Python to calculate VaR, Sharpe ratio and correlation matrix across FTSE stocks, then constructed and managed a €1bn active European equity portfolio against the MSCI Europe Index using Bloomberg Terminal, applying multi-factor risk decomposition, Brinson attribution and Monte Carlo VaR. The portfolio delivered 8.47% against a 9.09% benchmark, at lower total risk and VaR than benchmark; Brinson attribution diagnosed the shortfall as allocation-driven, concentrated in Novo Nordisk, rather than a failure of risk control.
