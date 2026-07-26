@@ -20,9 +20,9 @@ Built a discounted cash flow model projecting free cash flow growth from £3.3bn
 [View project](./Rolls-Royce_DCF_Model.xlsx)
 
 ### 📉 Merck (MRK) Time Series Analysis
-Analysed the time series behaviour of Merck & Co. daily returns and price spread (2000–2025). Tested stationarity, normality and white-noise properties of returns; built ARMA and ARMA-GARCH rolling-window trading rules benchmarked against buy-and-hold with transaction costs; and modelled conditional volatility using Log-HAR and Log-ARMA specifications against a Log-AR(1) benchmark. Found returns unpredictable at short horizons but volatility strongly persistent and forecastable, consistent with weak-form market efficiency.
+Empirical time-series econometrics on 26 years of daily MRK equity data (2000–2025): tested return properties (stationarity, normality, white-noise), evaluated rolling-window ARMA/ARMA-GARCH trading strategies out-of-sample against passive and technical benchmarks net of transaction costs, and forecast the high-low price spread using Log-HAR and Log-ARMA models. Found returns unpredictable at short horizons but volatility strongly persistent and forecastable, consistent with weak-form market efficiency.
 
-[View project](./Merck_Time_Series_Analysis.pdf)
+[View project folder](./merck-time-series-analysis/)
 
 ## About me
 
