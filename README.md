@@ -16,10 +16,10 @@ Priced European and American equity options using seven numerical methods in Pyt
 
 [View project](./derivatives-pricing/)
 
-### 💼 Portfolio Risk & Active Management (MSCI Europe)
-Used Python to calculate VaR, Sharpe ratio and correlation matrix across FTSE stocks, then constructed and managed a €1bn active European equity portfolio against the MSCI Europe Index using Bloomberg Terminal, applying multi-factor risk decomposition, Brinson attribution and Monte Carlo VaR. The portfolio delivered 8.47% against a 9.09% benchmark, at lower total risk and VaR than benchmark; Brinson attribution diagnosed the shortfall as allocation-driven, concentrated in Novo Nordisk, rather than a failure of risk control.
+### 💼 Active Portfolio Management (MSCI Europe)
+Constructed and managed a €1bn active European equity portfolio against the MSCI Europe Index, applying multi-factor risk decomposition, Brinson attribution and Monte Carlo VaR. The portfolio delivered 8.47% against a 9.09% benchmark, at lower total risk and VaR than benchmark; Brinson attribution diagnosed the shortfall as allocation-driven, concentrated in Novo Nordisk, rather than a failure of risk control.
 
-[View project](./Active%20Portfolio%20Management.pdf) · [Risk model](./Portfolio%20Risk%20Model.pdf)
+[View project](./Active%20Portfolio%20Management.pdf)
 
 ### 📊 Rolls Royce DCF Valuation
 Built a discounted cash flow model projecting free cash flow growth from £3.3bn to £5.1bn over five years, calculating WACC via CAPM at 8.5%. Discounted projected cash flows and terminal value back to present value, arriving at an intrinsic value of 1,320p against a market price of 1,110p, a 19% upside supporting a Buy recommendation.
