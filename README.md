@@ -7,6 +7,9 @@ Financial modelling, valuation and portfolio risk projects, built using Python, 
 ## Projects
 
 ### 🔢 Derivatives Pricing
+
+![CRR convergence: averaging cancels the odd-even oscillation](./derivatives-pricing/images/crr_convergence.png)
+
 Priced European and American equity options using seven numerical methods in Python, including binomial trees, finite-difference PDE methods, Monte Carlo simulation, and Longstaff-Schwartz. Validated every method against the Black-Scholes closed-form solution to within 10⁻⁴, and diagnosed sources of model bias including discrete-monitoring bias and volatility miscalibration.
 
 [View project](./derivatives-pricing/)
