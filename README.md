@@ -1,6 +1,7 @@
 # My-Finance-Portfolio
 
 Financial modelling, valuation and portfolio risk projects, built using Python, Excel and Bloomberg Terminal.
+**Tools:** Python (NumPy, SciPy, pandas, statsmodels, arch) · Excel/VBA · Bloomberg Terminal · SQL
 
 ## Projects
 
