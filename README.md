@@ -4,13 +4,14 @@ I'm Mridul Macker, an MSc Finance graduate from Alliance Manchester Business Sch
 
 Each project links to its model, code or report, with the main findings explained below.
 
-**Tools:** Python (NumPy, SciPy, pandas, statsmodels, arch) · Excel/VBA · Bloomberg Terminal · SQL
+**Tools:** Python (NumPy, SciPy, pandas, statsmodels, arch) · MATLAB · Excel/VBA · Bloomberg Terminal · SQL
 
 ## Explore the projects
 
 | Project | Main skills | Open |
 | --- | --- | --- |
 | Blu Containers: three-statement model | Forecasting, working capital, scenario analysis, Excel | [Project](./blu-containers-three-statement-model/) · [Excel](./blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.xlsx) · [PDF](./blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.pdf) |
+| India & South Korea: MSc dissertation | VAR/VECM, macro-financial analysis, robustness testing, MATLAB | [Research and code](./india-korea-macro-financial-linkages/) · [Dissertation](./india-korea-macro-financial-linkages/paper/Mridul_Macker_Dissertation_India_South_Korea.pdf) |
 | Rolls-Royce DCF valuation | Cash flow forecasting, WACC, valuation | [Excel model](./Rolls-Royce_DCF_Model.xlsx) |
 | Active Portfolio Management | Portfolio construction, attribution, risk analysis | [Report](./Active%20Portfolio%20Management.pdf) |
 | Derivatives pricing | Numerical methods, Monte Carlo, model validation, Python | [Project and code](./derivatives-pricing/) |
@@ -23,6 +24,12 @@ Each project links to its model, code or report, with the main findings explaine
 Integrated Excel model linking the income statement, balance sheet and cash flow statement, with three historical years and a five-year forecast. Includes driver-based revenue and cost forecasts, working capital, CAPEX, debt and interest schedules, and base/best/worst scenarios. The analysis highlights capacity constraints and the effect of pricing and cost inflation on profitability: 2027 net income is about $19m in the base case, $30m in the best case and $5m in the worst case. Completed using the CFA Institute Financial Modeling Practical Skills Module case study.
 
 [View project](blu-containers-three-statement-model/README.md) · [Excel model](blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.xlsx) · [PDF](blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.pdf)
+
+### India & South Korea — Global Factors, Stock Markets and Real Activity
+
+MSc Finance dissertation comparing global and domestic macroeconomic influences using monthly data for 2000–2025. Applied VAR/VECM models, Johansen cointegration tests, generalised impulse responses, variance decompositions and predictive-causality tests in MATLAB. Crisis and sample checks show why the apparent country ranking depends on COVID-19 observations and the economic channel examined.
+
+[Read the research and explore the code](./india-korea-macro-financial-linkages/) · [Dissertation PDF](./india-korea-macro-financial-linkages/paper/Mridul_Macker_Dissertation_India_South_Korea.pdf)
 
 ### 🔢 Derivatives Pricing
 

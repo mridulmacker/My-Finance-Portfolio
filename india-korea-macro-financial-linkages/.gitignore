@@ -1,0 +1,10 @@
+# Local inputs and MATLAB-generated outputs
+*.mat
+*.csv
+*.xls
+*.xlsx
+*.asv
+*.m~
+*.fig
+*.log
+/code/Figure*.png
