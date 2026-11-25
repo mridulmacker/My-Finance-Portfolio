@@ -6,11 +6,27 @@ numerical techniques**, then uses the structure of the cross-model agreements an
 disagreements to draw quantitative conclusions about each method.
 
 ## Contents
-- `report.pdf` — 9-page research note with all results, figures, and analysis
+- [Research report](./Derivatives%20Pricing%20--%20A%20study%20by%20Mridul%20Macker.pdf) — research note with results, figures, and analysis
 - `pricing_library.py` — single dependency-light module (NumPy/SciPy) that
-  reproduces every number in the report; run `python pricing_library.py`
+  implements the pricing methods and prints selected comparisons; run `python pricing_library.py`
 
-## Headline results (all seeded and reproducible)
+## Setup and usage
+
+The companion module requires Python 3.10 or later, NumPy and SciPy. From the repository root:
+
+```bash
+cd derivatives-pricing
+python -m venv .venv
+# macOS / Linux
+source .venv/bin/activate
+# Windows PowerShell: .venv\\Scripts\\Activate.ps1
+python -m pip install numpy scipy
+python pricing_library.py
+```
+
+The script prints pricing estimates and comparisons. Monte Carlo simulations and large lattice calculations may take time. Dependencies are currently unpinned; numerical output can vary across environments.
+
+## Reported headline results
 
 | Quantity | Method | Value |
 |---|---|---|
