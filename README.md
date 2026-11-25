@@ -1,8 +1,20 @@
-# My-Finance-Portfolio
+# Finance & Analytics Portfolio
 
-Financial modelling, valuation and portfolio risk projects, built using Python, Excel and Bloomberg Terminal.
+I'm Mridul Macker, an MSc Finance graduate from Alliance Manchester Business School and a former Data & Insights Analyst at Axtria. This portfolio brings together my work in financial modelling, valuation, portfolio analysis and financial econometrics.
+
+Each project links to its model, code or report, with the main findings explained below.
 
 **Tools:** Python (NumPy, SciPy, pandas, statsmodels, arch) · Excel/VBA · Bloomberg Terminal · SQL
+
+## Explore the projects
+
+| Project | Main skills | Open |
+| --- | --- | --- |
+| Blu Containers: three-statement model | Forecasting, working capital, scenario analysis, Excel | [Project](./blu-containers-three-statement-model/) · [Excel](./blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.xlsx) · [PDF](./blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.pdf) |
+| Rolls-Royce DCF valuation | Cash flow forecasting, WACC, valuation | [Excel model](./Rolls-Royce_DCF_Model.xlsx) |
+| Active Portfolio Management | Portfolio construction, attribution, risk analysis | [Report](./Active%20Portfolio%20Management.pdf) |
+| Derivatives pricing | Numerical methods, Monte Carlo, model validation, Python | [Project and code](./derivatives-pricing/) |
+| Merck time series analysis | Econometrics, backtesting, volatility forecasting, Python | [Project and code](./merck-time-series-analysis/) |
 
 ## Projects
 
@@ -16,7 +28,7 @@ Integrated Excel model linking the income statement, balance sheet and cash flow
 
 ![CRR convergence: averaging cancels the odd-even oscillation](./derivatives-pricing/images/crr_convergence.png)
 
-Priced European and American equity options using seven numerical methods in Python, including binomial trees, finite-difference PDE methods, Monte Carlo simulation, and Longstaff-Schwartz. Validated every method against the Black-Scholes closed-form solution to within 10⁻⁴, and diagnosed sources of model bias including discrete-monitoring bias and volatility miscalibration.
+Priced European and American equity options using seven numerical methods in Python, including binomial trees, finite-difference PDE methods, Monte Carlo simulation, and Longstaff-Schwartz. Compared European option estimates with Black–Scholes and American option estimates with numerical benchmarks, reporting method-specific errors and Monte Carlo uncertainty. Diagnosed discrete-monitoring bias and the effects of volatility calibration.
 
 ![Barrier option discrete-monitoring bias, corrected two ways](./derivatives-pricing/images/barrier_bias.png)
 
@@ -33,12 +45,18 @@ Built a discounted cash flow model projecting free cash flow growth from £3.3bn
 [View project](./Rolls-Royce_DCF_Model.xlsx)
 
 ### 📉 Merck (MRK) Time Series Analysis
-Empirical time-series econometrics on 26 years of daily MRK equity data (2000–2025): tested return properties (stationarity, normality, white-noise), evaluated rolling-window ARMA/ARMA-GARCH trading strategies out-of-sample against passive and technical benchmarks net of transaction costs, and forecast the high-low price spread using Log-HAR and Log-ARMA models. Found returns unpredictable at short horizons but volatility strongly persistent and forecastable, consistent with weak-form market efficiency.
+Empirical time-series econometrics on 26 years of daily MRK equity data (2000–2025): tested return properties (stationarity, normality, white-noise), evaluated rolling-window ARMA/ARMA-GARCH trading strategies out-of-sample against passive and technical benchmarks net of transaction costs, and forecast the high-low price spread using Log-HAR and Log-ARMA models. The tested return strategies underperformed buy-and-hold in this sample, while spread-based volatility forecasts improved on an AR(1) benchmark.
 
 [View project folder](./merck-time-series-analysis/)
 
 ## About me
 
-MSc Finance student at the University of Manchester, CFA Level 1 candidate. Previously a Data & Insights Analyst at Axtria, working with SQL and Python on financial and commercial analysis for global healthcare clients.
+MSc Finance graduate from Alliance Manchester Business School, University of Manchester, with postgraduate training in economics and previous analytics experience at Axtria. I use Excel, SQL and Python to investigate business performance, build financial models and communicate findings.
+
+Sat the CFA Level I exam in November 2026; results pending.
 
 [LinkedIn](https://www.linkedin.com/in/mridulmacker/)
+
+## Project context
+
+This portfolio includes academic research and training case studies. Blu Containers is a hypothetical company, and the valuation and portfolio results relate to the assumptions and periods used in each project. Coursework and training sources are identified in the relevant project documentation.
