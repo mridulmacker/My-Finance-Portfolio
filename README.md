@@ -6,6 +6,12 @@ Financial modelling, valuation and portfolio risk projects, built using Python, 
 
 ## Projects
 
+### Blu Containers — Three-Statement Financial Model
+
+Integrated Excel model linking the income statement, balance sheet and cash flow statement, with three historical years and a five-year forecast. Includes driver-based revenue and cost forecasts, working capital, CAPEX, debt and interest schedules, and base/best/worst scenarios. The analysis highlights capacity constraints and the effect of pricing and cost inflation on profitability. Completed using the CFA Institute Financial Modeling Practical Skills Module case study.
+
+[View project](blu-containers-three-statement-model/README.md) · [Excel model](blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.xlsx) · [PDF](blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.pdf)
+
 ### 🔢 Derivatives Pricing
 
 ![CRR convergence: averaging cancels the odd-even oscillation](./derivatives-pricing/images/crr_convergence.png)
