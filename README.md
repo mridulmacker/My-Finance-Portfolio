@@ -20,7 +20,7 @@ Each project links to its model, code or report, with the main findings explaine
 
 ### Blu Containers — Three-Statement Financial Model
 
-Integrated Excel model linking the income statement, balance sheet and cash flow statement, with three historical years and a five-year forecast. Includes driver-based revenue and cost forecasts, working capital, CAPEX, debt and interest schedules, and base/best/worst scenarios. The analysis highlights capacity constraints and the effect of pricing and cost inflation on profitability. Completed using the CFA Institute Financial Modeling Practical Skills Module case study.
+Integrated Excel model linking the income statement, balance sheet and cash flow statement, with three historical years and a five-year forecast. Includes driver-based revenue and cost forecasts, working capital, CAPEX, debt and interest schedules, and base/best/worst scenarios. The analysis highlights capacity constraints and the effect of pricing and cost inflation on profitability: 2027 net income is about $19m in the base case, $30m in the best case and $5m in the worst case. Completed using the CFA Institute Financial Modeling Practical Skills Module case study.
 
 [View project](blu-containers-three-statement-model/README.md) · [Excel model](blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.xlsx) · [PDF](blu-containers-three-statement-model/Blu_Containers_Three_Statement_Model.pdf)
 
@@ -28,14 +28,14 @@ Integrated Excel model linking the income statement, balance sheet and cash flow
 
 ![CRR convergence: averaging cancels the odd-even oscillation](./derivatives-pricing/images/crr_convergence.png)
 
-Priced European and American equity options using seven numerical methods in Python, including binomial trees, finite-difference PDE methods, Monte Carlo simulation, and Longstaff-Schwartz. Compared European option estimates with Black–Scholes and American option estimates with numerical benchmarks, reporting method-specific errors and Monte Carlo uncertainty. Diagnosed discrete-monitoring bias and the effects of volatility calibration.
+Priced European and American equity options using seven numerical methods in Python (full method list in the [project README](./derivatives-pricing/README.md)), including binomial trees, finite-difference PDE methods, Monte Carlo simulation, and Longstaff-Schwartz. Compared European option estimates with Black–Scholes and American option estimates with numerical benchmarks, reporting method-specific errors and Monte Carlo uncertainty. Diagnosed discrete-monitoring bias and the effects of volatility calibration.
 
 ![Barrier option discrete-monitoring bias, corrected two ways](./derivatives-pricing/images/barrier_bias.png)
 
 [View project](./derivatives-pricing/)
 
 ### 💼 Active Portfolio Management (MSCI Europe)
-Constructed and managed a €1bn active European equity portfolio against the MSCI Europe Index, applying multi-factor risk decomposition, Brinson attribution and Monte Carlo VaR. The portfolio delivered 8.47% against a 9.09% benchmark, at lower total risk and VaR than benchmark; Brinson attribution diagnosed the shortfall as allocation-driven, concentrated in Novo Nordisk, rather than a failure of risk control.
+Constructed and managed a €1bn active European equity portfolio against the MSCI Europe Index, applying multi-factor risk decomposition, Brinson attribution and Monte Carlo VaR. Over the six months from 31 December 2024 to 30 June 2025, the portfolio returned 8.47% against 9.09% for the benchmark (not annualised), at lower total risk and VaR than benchmark; Brinson attribution diagnosed the shortfall as allocation-driven, concentrated in Novo Nordisk, rather than a failure of risk control.
 
 [View project](./Active%20Portfolio%20Management.pdf)
 
